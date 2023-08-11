@@ -2,7 +2,7 @@
  * @Author: yangfeng
  * @Date: 2023-08-11 14:36:58
  * @LastEditors: yangfeng
- * @LastEditTime: 2023-08-11 16:00:46
+ * @LastEditTime: 2023-08-11 17:11:18
  * @FilePath: \tool-collaboration\src\components\HelloWorld.vue
  * @Description:  
 -->
@@ -95,12 +95,16 @@
 </template>
 
 <script setup>
+
 const msg = 'Hello'
 var i = 0
 console.log(i)
 function name(params) {
   console.log(params)
 }
+
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
